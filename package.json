@@ -21,7 +21,7 @@
     "loggerfactory"
   ],
   "author": "Joseph Baking <josephbaking.ph@gmail.com> (https://github.com/jpbaking)",
-  "license": "MIT",
+  "license": "0BSD",
   "bugs": {
     "url": "https://github.com/jpbaking/slf4j-like-logging/issues"
   },
