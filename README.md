@@ -1,5 +1,22 @@
 # slf4n-logging
 
+> **⚠️ DEPRECATED — No longer maintained as of 2026.**
+>
+> This package is archived. For new projects, prefer one of the mainstream alternatives below:
+>
+> | Library | Why |
+> |---|---|
+> | **[pino](https://github.com/pinojs/pino)** | Fast, structured JSON logging, named child loggers, TypeScript-native |
+> | **[winston](https://github.com/winstonjs/winston)** | Multi-transport, large plugin ecosystem, level hierarchy, no globals |
+> | **[debug](https://github.com/debug-js/debug)** | Lightweight; the `app:component` namespace pattern used here is built into `debug` natively |
+> | **[log4js-node](https://github.com/log4js-node/log4js-node)** | Closest Java/Log4j parity if that API familiarity is the goal |
+>
+> **Why deprecated:**
+> - Default API sets `global.LoggerFactory` — a significant anti-pattern in modern Node.js
+> - Returns [Bluebird](https://www.npmjs.com/package/bluebird) Promises from log calls, which is non-standard and adds unnecessary weight; logging is almost universally fire-and-forget
+> - No TypeScript types, no ESM support
+> - The ecosystem has matured well past what this package offered in 2018
+
 ## Simple Logging Facade for NodeJS
 
 Emulating Simple Logging Facade for Java (SLF4J)
