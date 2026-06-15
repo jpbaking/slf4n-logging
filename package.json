@@ -1,6 +1,6 @@
 {
   "name": "slf4n-logging",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Logging Facade for NodeJS | Emulating Simple Logging Facade for Java (SLF4J)",
   "main": "index.js",
   "scripts": {
